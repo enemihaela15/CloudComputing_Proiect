@@ -18,20 +18,20 @@ const ServiciuForm = (props) => {
 
   return (
     <div className="flex justify-center p-4">
-      <div className="border p-4 rounded-md shadow-sm flex flex-col gap-4 w-full max-w-80">
+      <div className="border p-4 rounded-md shadow-sm flex flex-col gap-4 w-full max-w-80 bg-[#79155B]">
         <div>
           <label
             htmlFor="title"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Title
+            Service name
           </label>
           <input
             type="text"
             id="serviciu"
             value={entry.serviciu}
             onChange={(e) => updateEntry("serviciu", e.target.value)}
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-[#C23373] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Serviciu"
             required
           />
@@ -50,6 +50,54 @@ const ServiciuForm = (props) => {
             onChange={(e) => updateEntry("descriere", e.target.value)}
             className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Description"
+          ></textarea>
+        </div>
+        <div>
+          <label
+            htmlFor="pret"
+            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >
+            Department
+          </label>
+          <textarea
+            id="specialitate"
+            rows="1"
+            value={entry.pret}
+            onChange={(e) => updateEntry("pret", e.target.value)}
+            className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Department"
+          ></textarea>
+        </div>
+        <div>
+          <label
+            htmlFor="pret"
+            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >
+            Price
+          </label>
+          <textarea
+            id="pret"
+            rows="1"
+            value={entry.pret}
+            onChange={(e) => updateEntry("pret", e.target.value)}
+            className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Price"
+          ></textarea>
+        </div>
+        <div>
+          <label
+            htmlFor="durata_minute"
+            className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >
+            Duration
+          </label>
+          <textarea
+            id="pret"
+            rows="1"
+            value={entry.pret}
+            onChange={(e) => updateEntry("pret", e.target.value)}
+            className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Duration"
           ></textarea>
         </div>
         <div className="w-full flex justify-center gap-4">
