@@ -38,60 +38,60 @@ export default function InsertPage() {
 	return (
 		<section className={"bg-white"}>
 
-				<h1 className={"w-[500px] mx-auto mb-2 text-center text-6xl font-bold text-[#C23373]"}>Place order</h1>
+				<h1 className={"w-[500px] mx-auto mb-2 text-center text-6xl font-bold text-[#C23373]"}>Cere o programare</h1>
 
-				<p className={"w-[1000px] mx-auto text-center mt-4 text-3xl text-[#C23373]"}>This is where you can make an appointment</p>
+				<p className={"w-[1000px] mx-auto text-center mt-4 text-3xl text-[#C23373]"}>Aici va puteti face o programare</p>
 				<br></br>
 				<div><Navbar/></div>
 
 				<form>
 						<div className="mb-2 mt-10 px-10 py-">
-							<label htmlFor="service" className="font-bold  text-4xl block mb-2  font-large text-white dark:text-[#F6635C]">Medical service</label>
+							<label htmlFor="service" className="font-bold  text-4xl block mb-2  font-large text-white dark:text-[#F6635C]">Serviciu medical</label>
 							<input align="center"  type="text" id="serviciu"
 								className="bg-gray-50 border  text-4xl border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#79155B] dark:focus:ring-[#79155B] dark:focus:border-[#79155B] font-bold"
-								placeholder="Your service" 
+								placeholder="Serviciu medical" 
 								style={{ backgroundColor: '#FFBA86', borderColor: '#FFBA86' }}required/>
 						</div>
 						<div className="mb-6 px-10 py-5">
-							<label htmlFor="prenume" className="font-bold  text-4xl  block mb-2 font-medium text-white dark:text-[#F6635C]">First name</label>
-							<input align="center"  type="text" id="prenume"
+							<label htmlFor="nume" className="font-bold  text-4xl  block mb-2 font-medium text-white dark:text-[#F6635C]">Nume</label>
+							<input align="center"  type="text" id="nume"
 								className="bg-gray-50 border border-gray-300  text-4xl text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#79155B] dark:focus:ring-[#79155B] dark:focus:border-[#79155B] font-bold"
-								placeholder="First name" 
+								placeholder="Nume" 
 								style={{ backgroundColor: '#FFBA86', borderColor: '#FFBA86' }} required/>
 						</div>
                         <div className="mb-6 px-10 py-5">
-							<label htmlFor="nume" className="font-bold  text-4xl  block mb-2 font-medium text-white dark:text-[#F6635C]">Last name</label>
-							<input align="center"  type="text" id="nume"
+							<label htmlFor="prenume" className="font-bold  text-4xl  block mb-2 font-medium text-white dark:text-[#F6635C]">Prenume</label>
+							<input align="center"  type="text" id="prenume"
 								className="bg-gray-50 border border-gray-300  text-4xl text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#79155B] dark:focus:ring-[#79155B] dark:focus:border-[#79155B] font-bold"
-								placeholder="Last name"
+								placeholder="Prenume"
 								style={{ backgroundColor: '#FFBA86', borderColor: '#FFBA86' }} required/>
 						</div>
 						<div className="mb-6 px-10">
-							<label htmlFor="nr_telefon" className="font-bold  text-4xl  block mb-2 font-medium text-white dark:text-[#F6635C]">Phone number</label>
+							<label htmlFor="nr_telefon" className="font-bold  text-4xl  block mb-2 font-medium text-white dark:text-[#F6635C]">Numar de telefon</label>
 							<input align="center"  type="text" id="nr_telefon"
 								className="bg-gray-50 border border-gray-300  text-4xl text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#79155B] dark:focus:ring-[#79155B] dark:focus:border-[#79155B] font-bold"
-								placeholder="Phone number"
+								placeholder="Numar de telefon"
 								style={{ backgroundColor: '#FFBA86', borderColor: '#FFBA86' }} required/>
 						</div>
 						<div className="mb-10 px-10">
 							<label htmlFor="data"
-								className="block mb-2 font-bold  text-4xl  font-medium text-white dark:text-[#F6635C]">Appointment Date</label>
+								className="block mb-2 font-bold  text-4xl  font-medium text-white dark:text-[#F6635C]">Data Programare</label>
 							<input type="text"align="center"  id="data"
 									className="bg-gray-50 border text-4xl border-gray-300 text-gray-900 text-sm text-size-24 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#79155B] dark:focus:ring-[#79155B] dark:focus:border-[#79155B] font-bold"
-									placeholder="Date"
+									placeholder="Data"
 									style={{ backgroundColor: '#FFBA86', borderColor: '#FFBA86' }} required/>
 						</div>
                         <div className="mb-10 px-10">
 							<label htmlFor="time"
-								className="block mb-2 font-bold  text-4xl  font-medium text-white dark:text-[#F6635C]">Appointment Time</label>
+								className="block mb-2 font-bold  text-4xl  font-medium text-white dark:text-[#F6635C]">Ora programare</label>
 							<input type="text"align="center"  id="ora"
 									className="bg-gray-50 border text-4xl border-gray-300 text-gray-900 text-sm text-size-24 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-[#79155B] dark:focus:ring-[#79155B] dark:focus:border-[#79155B] font-bold"
-									placeholder="Time"
+									placeholder="Ora"
 									style={{ backgroundColor: '#FFBA86', borderColor: '#FFBA86' }}  required/>
 						</div>
 						<button type="submit "
 								onClick={ insertRecord }
-								className="text-white py-3 bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-600 font-large rounded-lg w-full text-2xl sm:w-auto px-10 py-2.5 text-center dark:bg-[#F6635C] dark:hover:bg-[#C23373] dark:focus:ring-[#F6635C]">BOOK
+								className="text-white py-3 bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-600 font-large rounded-lg w-full text-2xl sm:w-auto px-10 py-2.5 text-center dark:bg-[#F6635C] dark:hover:bg-[#C23373] dark:focus:ring-[#F6635C]">FINALIZARE
 						</button>
 					</form>
 				

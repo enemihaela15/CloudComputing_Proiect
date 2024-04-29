@@ -44,12 +44,12 @@ const MainPage = () => {
   
     return (
       <section>
-        <h1 className={"w-[500px] mx-auto text-center mt-3 text-6xl font-bold text-[#C23373] padding-[100px]"}>Medical Services App</h1>
-			  <p className={"w-[1000px] mx-auto text-center mt-8 text-3xl text-[#C23373]"}>This is an app that showcases available medical services for our restaurant.</p>
+        <h1 className={"w-[500px] mx-auto text-center mt-3 text-6xl font-bold text-[#C23373] padding-[100px]"}>Aplicație Servicii Medicale</h1>
+			  <p className={"w-[1000px] mx-auto text-center mt-8 text-3xl text-[#C23373]"}>Aceasta este o aplicație care prezintă serviciile medicale disponibile pentru clientii nostri</p>
         <br></br>
         <div><Navbar/></div>
         <br></br>
-        <p className={"container text-left text-5xl font-bold text-[#F6635C] pl-[20px]"}>Our medical services</p>
+        <p className={"container text-left text-5xl font-bold text-[#F6635C] pl-[20px]"}>Serviciile oferite</p>
         <br></br>
         <div className="p-4 flex flex-wrap gap-4">
                 {records.map((record) => (
@@ -68,7 +68,7 @@ const MainPage = () => {
                     {record.descriere}
                     </p>
                     <p className="mb-3 font-normal text-gray-700 dark:text-[#79155B]">
-                    {"Price: " + record.tarif +" lei"}
+                    {"Pret: " + record.tarif +" lei"}
                     </p>
                     <div className="flex justify-center">
                     <button

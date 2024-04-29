@@ -22,7 +22,7 @@ const ServiciuForm = (props) => {
             htmlFor="title"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Medical Service
+            Serviciu medical
           </label>
           <input
             type="text"
@@ -39,7 +39,7 @@ const ServiciuForm = (props) => {
             htmlFor="descriere"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Description
+            Descriere
           </label>
           <textarea
             id="descriere"
@@ -55,7 +55,7 @@ const ServiciuForm = (props) => {
             htmlFor="pret"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Department
+            Specialitate
           </label>
           <textarea
             id="specialitate"
@@ -71,7 +71,7 @@ const ServiciuForm = (props) => {
             htmlFor="tarif"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Price
+            Pret
           </label>
           <textarea
             id="tarif"
@@ -87,7 +87,7 @@ const ServiciuForm = (props) => {
             htmlFor="durata_minute"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Duration
+            Durata
           </label>
           <textarea
             id="durata_minute"

@@ -44,17 +44,17 @@ function Navbar() {
       <style>{styles}</style>
       <nav className="nav">
         <a href="/#" className="nav__brand">
-          HOME
+          SERVICII MEDICALE
         </a>
         <ul className={active}>
           <li className="nav__item">
             <a href="/programari/insert" className="nav__link">
-              BOOK AN APPOINTMENT
+              CERE O PROGRAMARE
             </a>
           </li>
           <li className="nav__item">
             <a href="/programari/appointment" className="nav__link">
-              YOUR APPOINTMENTS
+              PROGRAMARILE TALE
             </a>
           </li>
         </ul>

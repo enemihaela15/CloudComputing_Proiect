@@ -42,8 +42,8 @@ export default function AppointmentsPage() {
 
     return (
         <section className={"bg-white"}> {/* Modificarea clasei bg-black la bg-white */}
-          <h1 className={"w-[500px] mx-auto text-center text-6xl font-bold text-[#C23373]"}>Appointments</h1>
-          <p className={"w-[1000px] mx-auto text-center mt-4 text-3xl text-[#C23373]"}>See your appointments.</p>
+          <h1 className={"w-[500px] mx-auto text-center text-6xl font-bold text-[#C23373]"}>Programari</h1>
+          <p className={"w-[1000px] mx-auto text-center mt-4 text-3xl text-[#C23373]"}>Aici poti vedea programarile tale</p>
           <br></br>
           <div><Navbar/></div>
       
@@ -54,9 +54,9 @@ export default function AppointmentsPage() {
                      className={"max-w-sm p-6 bg-white border-2 border-solid border-[#79155B] rounded-lg shadow"}
                 >
                   <h3 className={"mb-2 text-3xl font-bold text-[#F6635C]"}>{record.serviciu}</h3>
-                  <h4 className={"font-bold text-black "}>Name: {record.nume + " " + record.prenume }</h4>
-                  <h4 className={"font-bold text-black"}>Phone number: {record.nr_telefon}</h4>
-                  <h4 className={"font-bold italic hover:not-italic text-[#FFBA86] "}>Date & hour: {record.dataProgramare + " " + record.ora }</h4>
+                  <h4 className={"font-bold text-black "}>Nume: {record.nume + " " + record.prenume }</h4>
+                  <h4 className={"font-bold text-black"}>Nr telefon: {record.nr_telefon}</h4>
+                  <h4 className={"font-bold italic hover:not-italic text-[#FFBA86] "}>Data si ora: {record.dataProgramare + " " + record.ora }</h4>
                   <button type="button"
                           onClick={deleteRecord}
                           id={record._id}
