@@ -7,7 +7,8 @@ Aplicatia pentru programari medicale le ofera clientilor posibilitatea de a prog
   
 _**2.METODE HTTP**_
 
-Pentru serviciile medicale disponibile pe aplicatoe:
+Pentru serviciile medicale disponibile pe aplicatie:
+
 a) GET: Get medical service: Aceasta metoda nu primeste niciun parametru si returneaza toate serviciile medicale salvate in baza de date.
 
 b) POST: Add a medical service: Aceasta metoda cere prin intermediul corpului cererii 4 informatii: numele serviciului, specialitatea, descrierea, pretul si durata. Pe baza acestora se vor crea un nou id si un nou document, acesta din urma adaugandu-se in colectia din baza de date.
