@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Spinner from "@/components/Spinner";
-import { recordDefaultValues, serviciuDefaultValues } from "@/utils/constants";
+import {serviciuDefaultValues } from "@/utils/constants";
 import { getRecordById, updateRecord } from "@/utils/serviciiFunctions";
 import RecordForm from "@/components/ServiciuForm";
 

@@ -61,6 +61,9 @@ const MainPage = () => {
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-[#79155B]">
                     {record.serviciu}
                     </h5>
+                    <p className="mb-3 font-bold text-gray-700 dark:text-[#79155B]">
+                    {"Specialitate: " + record.specialitate}
+                    </p>
                     <p className="mb-3 font-normal text-gray-700 dark:text-[#79155B]">
                     {record.descriere}
                     </p>
