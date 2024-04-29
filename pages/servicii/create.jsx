@@ -1,4 +1,4 @@
-import RecordForm from "@/components/ServiciuForm";
+import ServiciuForm from "@/components/ServiciuForm";
 import { serviciuDefaultValues } from "@/utils/constants";
 import { createRecord } from "@/utils/serviciiFunctions";
 import { useRouter } from "next/router";
