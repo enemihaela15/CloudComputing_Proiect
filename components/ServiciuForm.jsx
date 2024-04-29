@@ -1,4 +1,4 @@
-// /components/RecordForm.jsx
+// /components/ServiciuForm.jsx
 
 import React, { useState } from "react";
 import { useRouter } from "next/router";
@@ -62,24 +62,24 @@ const ServiciuForm = (props) => {
           <textarea
             id="specialitate"
             rows="1"
-            value={entry.pret}
-            onChange={(e) => updateEntry("pret", e.target.value)}
+            value={entry.specialitate}
+            onChange={(e) => updateEntry("specialitate", e.target.value)}
             className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Department"
           ></textarea>
         </div>
         <div>
           <label
-            htmlFor="pret"
+            htmlFor="tarif"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
             Price
           </label>
           <textarea
-            id="pret"
+            id="tarif"
             rows="1"
-            value={entry.pret}
-            onChange={(e) => updateEntry("pret", e.target.value)}
+            value={entry.tarif}
+            onChange={(e) => updateEntry("tarif", e.target.value)}
             className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Price"
           ></textarea>
@@ -92,10 +92,10 @@ const ServiciuForm = (props) => {
             Duration
           </label>
           <textarea
-            id="pret"
+            id="durata_minute"
             rows="1"
-            value={entry.pret}
-            onChange={(e) => updateEntry("pret", e.target.value)}
+            value={entry.durata_minute}
+            onChange={(e) => updateEntry("durata_minute", e.target.value)}
             className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Duration"
           ></textarea>

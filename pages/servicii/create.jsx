@@ -18,7 +18,7 @@ const Create = () => {
   }
 
   return (
-      <RecordForm data={entry} onSubmit={onSubmit} />
+      <ServiciuForm data={entry} onSubmit={onSubmit} />
   );
 };
 

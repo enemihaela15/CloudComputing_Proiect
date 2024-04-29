@@ -64,6 +64,9 @@ const MainPage = () => {
                     <p className="mb-3 font-normal text-gray-700 dark:text-[#79155B]">
                     {record.descriere}
                     </p>
+                    <p className="mb-3 font-normal text-gray-700 dark:text-[#79155B]">
+                    {"Price: " + record.tarif +" lei"}
+                    </p>
                     <div className="flex justify-center">
                     <button
                         type="button"
