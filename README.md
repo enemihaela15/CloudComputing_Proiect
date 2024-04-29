@@ -9,6 +9,9 @@ _**2.METODE HTTP**_
 
 Pentru serviciile medicale disponibile pe aplicatoe:
 a) GET: Get medical service: Aceasta metoda nu primeste niciun parametru si returneaza toate serviciile medicale salvate in baza de date.
+
 b) POST: Add a medical service: Aceasta metoda cere prin intermediul corpului cererii 4 informatii: numele serviciului, specialitatea, descrierea, pretul si durata. Pe baza acestora se vor crea un nou id si un nou document, acesta din urma adaugandu-se in colectia din baza de date.
+
 c) PUT: Update a medical service: Aceasta metoda primeste ca parametru id-ul unui serviciu care urmeaza sa fie modificat in colectia din baza de date.
+
 d) DELETE: Delete a medical service: Aceasta metoda primeste ca parametru id-ul unui serviciu care se doreste a fi sters din colectia din baza de date.
