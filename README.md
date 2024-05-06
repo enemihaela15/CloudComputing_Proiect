@@ -4,8 +4,16 @@ _**1.INTRODUCERE**_
 
 Aplicatia pentru programari medicale le ofera clientilor posibilitatea de a programa consultatii si tratamente. Utilizatorii pot accesa meniul serviciilor medicale disponibile si pot face programari online. De asemenea, ei pot vizualiza programarile anterioare si informatiile aferente acestora. Toate datele au fost gestionate prin intermediul unei baze de date remote in Cloud, care are la baza tehnologia **MONGODB**. Pentru dezvoltarea backend-ului am utilizat **NextJS** in combinatie cu un server express si un API pentru operatiile CRUD realizate la nivelul bazei de date. Interfata aplicatiei a fost realizata in **React**. Aplicatia finala a fost publicata folosind platforma de Cloud **VERCEL**.
 
-  
-_**2.METODE HTTP**_
+**_2.MONGODB API_**
+Baza de date este stocata in cloud folosing MongoDB. Prin intermediul ei, clientii pot crea sau sterge programari, aceste modificari realizandu-se si la nivelul bazei de date. Aceleasi functionalitati sunt valabile si pentru vizualizarea serviciilor medicale disponibile. Pentru a putea efectua operatiile CRUD asupra bazei de date, a fost nevoie de dezvoltarea a 2 routere, fiecare avand cele 4 metode de tip GET, POST, PUT si DELETE.
+
+**PROGRAMARI.js**
+![ss3](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/4ca36a62-6194-485c-a080-e13f2457e051)
+
+**SERVICII.js**
+![ss4](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/63ac8e95-1778-432e-b989-74e19fb5899b)
+
+_**3.METODE HTTP**_
 
 Pentru serviciile medicale disponibile pe aplicatie:
 
