@@ -38,6 +38,8 @@ d) DELETE: Delete appointment: Aceasta metoda primeste ca parametru id-ul unei p
 
 ![ss1](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/7871d50c-6cf3-44ab-8eea-5b6c6eb59155)
 ![ss2](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/1eaaf362-c426-488a-8be8-b2d02259b0cc)
+![ss10](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/41a722ff-be55-4aef-a2ec-178ee4ab0f6b)
+
 
 _**4.AUTENTIFICARE SI AUTORIZARE SERVICII UTILIZATE**_
 
