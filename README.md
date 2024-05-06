@@ -16,3 +16,4 @@ b) POST: Add a medical service: Aceasta metoda cere prin intermediul corpului ce
 c) PUT: Update a medical service: Aceasta metoda primeste ca parametru id-ul unui serviciu care urmeaza sa fie modificat in colectia din baza de date.
 
 d) DELETE: Delete a medical service: Aceasta metoda primeste ca parametru id-ul unui serviciu care se doreste a fi sters din colectia din baza de date.
+![ss1](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/20ba2a74-1777-4614-966d-fc9021e7e89b)
