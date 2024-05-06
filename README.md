@@ -16,4 +16,14 @@ b) POST: Add a medical service: Aceasta metoda cere prin intermediul corpului ce
 c) PUT: Update a medical service: Aceasta metoda primeste ca parametru id-ul unui serviciu care urmeaza sa fie modificat in colectia din baza de date.
 
 d) DELETE: Delete a medical service: Aceasta metoda primeste ca parametru id-ul unui serviciu care se doreste a fi sters din colectia din baza de date.
+
+Pentru programari:
+
+a) GET: Get appointment: Aceasta metoda nu primeste niciun parametru si returneaza toate programarile salvate in baza de date.
+
+b) POST: Add a new appointment: Aceasta metoda solicita prin intermediul corpului cererii 6 informatii: serviciul pentru care se doreste o programare, nume pacient, prenume pacient, numar de telefon, data programarii si ora. Pe baza acestora se va crea un nou id si se va adauga o noua inregistrare in colectia din baza de date.
+
+c) PUT: Update appointment: Aceasta metoda primeste ca parametru id-ul unei programari care urmeaza sa fie modificata in baza de date.
+
+d) DELETE: Delete appointment: Aceasta metoda primeste ca parametru id-ul unei programari care urmeaza sa fie stearsa din baza de date.
 ![ss1](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/20ba2a74-1777-4614-966d-fc9021e7e89b)
