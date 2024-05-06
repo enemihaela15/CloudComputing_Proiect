@@ -26,6 +26,7 @@ b) POST: Add a new appointment: Aceasta metoda solicita prin intermediul corpulu
 c) PUT: Update appointment: Aceasta metoda primeste ca parametru id-ul unei programari care urmeaza sa fie modificata in baza de date.
 
 d) DELETE: Delete appointment: Aceasta metoda primeste ca parametru id-ul unei programari care urmeaza sa fie stearsa din baza de date.
-![ss1](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/20ba2a74-1777-4614-966d-fc9021e7e89b) 
-![ss2](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/4bb08cf1-d9dc-4e04-abe4-087f18d61192)
+![ss1](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/f8edf5ae-f4c6-489e-af4f-ef6557f9a939)
+![ss2](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/aa6c8391-e2c6-4629-85ab-b1181b6761de)
+
 
