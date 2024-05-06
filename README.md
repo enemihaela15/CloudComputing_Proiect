@@ -16,7 +16,8 @@ Baza de date este stocata in cloud folosing MongoDB. Prin intermediul ei, client
 
 Pentru a putea conecta si utiliza baza de date MongoDB in cloud a fost necesara crearea folderului .env care contine urmatoarele informatii: NEXT_ATLAS_URI (cheia unica a bazei de date) si NEXT_ATLAS_DATABASE (numele bazei de date).
 
-Colectiile servicii_medicale si programari din baza de date Project:
+Colectiile servicii_medicale si programari din baza de date **Project**:
+
 ![ss5](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/63c8079f-c1a5-49a1-8e0d-9306c1761c8d)
 
 _**3.METODE HTTP**_
@@ -40,9 +41,31 @@ b) POST: Add a new appointment: Aceasta metoda solicita prin intermediul corpulu
 c) PUT: Update appointment: Aceasta metoda primeste ca parametru id-ul unei programari care urmeaza sa fie modificata in baza de date.
 
 d) DELETE: Delete appointment: Aceasta metoda primeste ca parametru id-ul unei programari care urmeaza sa fie stearsa din baza de date.
+
 ![ss1](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/7871d50c-6cf3-44ab-8eea-5b6c6eb59155)
 ![ss2](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/1eaaf362-c426-488a-8be8-b2d02259b0cc)
 
+**_4.Capturi de ecran din aplicatie_**
+**-- VIZUALIZARE SERVICII MEDICALE**
+
+![ss6](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/387a392f-d4f3-406f-a7b8-79e7c2d36b4c)
+
+**-- MODIFICARE SERVICIU MEDICAL**
+
+![ss7](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/f2e45e0c-0e71-4a8e-9779-18d50d9e1749)
+
+**-- CREARE PROGRAMARE**
+
+![ss8](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/173f0b11-0d2b-4961-83c8-83eb283acb29)
+
+**-- VIZUALIZARE PROGRAMARI**
+
+![ss9](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/53d69326-57d4-4ec8-add1-ef92c4d149ec)
+
+
+**_5.REFERINTE_**
+_Link catre aplicatie_: https://cloud-computing-proiect.vercel.app/
+_Link catre prezentarea video_: 
 
 
 
