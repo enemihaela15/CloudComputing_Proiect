@@ -45,7 +45,8 @@ d) DELETE: Delete appointment: Aceasta metoda primeste ca parametru id-ul unei p
 ![ss1](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/7871d50c-6cf3-44ab-8eea-5b6c6eb59155)
 ![ss2](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/1eaaf362-c426-488a-8be8-b2d02259b0cc)
 
-**_4.Capturi de ecran din aplicatie_**
+**_4.CAPTURI DE ECRAN DIN APLICATIE_**
+
 **-- VIZUALIZARE SERVICII MEDICALE**
 
 ![ss6](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/387a392f-d4f3-406f-a7b8-79e7c2d36b4c)
@@ -64,7 +65,9 @@ d) DELETE: Delete appointment: Aceasta metoda primeste ca parametru id-ul unei p
 
 
 **_5.REFERINTE_**
+
 _Link catre aplicatie_: https://cloud-computing-proiect.vercel.app/
+
 _Link catre prezentarea video_: 
 
 
