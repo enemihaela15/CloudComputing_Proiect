@@ -5,6 +5,7 @@ _**1.INTRODUCERE**_
 Aplicatia pentru programari medicale le ofera clientilor posibilitatea de a programa consultatii si tratamente. Utilizatorii pot accesa meniul serviciilor medicale disponibile si pot face programari online. De asemenea, ei pot vizualiza programarile anterioare si informatiile aferente acestora. Toate datele au fost gestionate prin intermediul unei baze de date remote in Cloud, care are la baza tehnologia **MONGODB**. Pentru dezvoltarea backend-ului am utilizat **NextJS** in combinatie cu un server express si un API pentru operatiile CRUD realizate la nivelul bazei de date. Interfata aplicatiei a fost realizata in **React**. Aplicatia finala a fost publicata folosind platforma de Cloud **VERCEL**.
 
 **_2.MONGODB API_**
+
 Baza de date este stocata in cloud folosing MongoDB. Prin intermediul ei, clientii pot crea sau sterge programari, aceste modificari realizandu-se si la nivelul bazei de date. Aceleasi functionalitati sunt valabile si pentru vizualizarea serviciilor medicale disponibile. Pentru a putea efectua operatiile CRUD asupra bazei de date, a fost nevoie de dezvoltarea a 2 routere, fiecare avand cele 4 metode de tip GET, POST, PUT si DELETE.
 
 **PROGRAMARI.js**
@@ -12,6 +13,11 @@ Baza de date este stocata in cloud folosing MongoDB. Prin intermediul ei, client
 
 **SERVICII.js**
 ![ss4](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/63ac8e95-1778-432e-b989-74e19fb5899b)
+
+Pentru a putea conecta si utiliza baza de date MongoDB in cloud a fost necesara crearea folderului .env care contine urmatoarele informatii: NEXT_ATLAS_URI (cheia unica a bazei de date) si NEXT_ATLAS_DATABASE (numele bazei de date).
+
+Colectiile servicii_medicale si programari din baza de date Project:
+![ss5](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/63c8079f-c1a5-49a1-8e0d-9306c1761c8d)
 
 _**3.METODE HTTP**_
 
@@ -36,6 +42,7 @@ c) PUT: Update appointment: Aceasta metoda primeste ca parametru id-ul unei prog
 d) DELETE: Delete appointment: Aceasta metoda primeste ca parametru id-ul unei programari care urmeaza sa fie stearsa din baza de date.
 ![ss1](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/7871d50c-6cf3-44ab-8eea-5b6c6eb59155)
 ![ss2](https://github.com/enemihaela15/CloudComputing_Proiect/assets/100297974/1eaaf362-c426-488a-8be8-b2d02259b0cc)
+
 
 
 
