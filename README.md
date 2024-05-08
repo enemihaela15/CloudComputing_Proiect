@@ -73,7 +73,7 @@ Colectiile servicii_medicale si programari din baza de date **Project**:
 
 _Link catre aplicatie_: https://cloud-computing-proiect.vercel.app/
 
-_Link catre prezentarea video_: 
+_Link catre prezentarea video_: https://youtu.be/-WtYI66vSjQ
 
 
 
